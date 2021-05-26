@@ -35,7 +35,7 @@ nav{
     font-size: 16px;
     padding: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
@@ -47,19 +47,19 @@ nav{
 
 .logo-wrap .logo{
     font-size: 30px;
-    color: black;
+    color: white;
    
 }
 
-main{
+.intro-box {
     display: flex;
 }
 
 
-/*Introduction Section*/
+/* INTRODUCTION SESSION */
 .intro{
     width: 50%;
-    color: rgb(247, 226, 188);
+    color: teal;
 
 }
 
@@ -68,30 +68,38 @@ main{
 }
 
 .intro p{
-    font-size: 20px;
-
-
+    font-size: 20px
 }
-/* Button Section*/
-.submit-button{
+
+.hey {
+    background-color: teal;
+    padding: 8px;
+    color: white;
+    border-radius: 10px 10px 10px 0px;
+}
+/* BUTTON SECTION */
+.submit-button {
     align-content: center;
     font-size: 18px ;
-    background-color: rgb(56, 45, 204);
-    border: none;
+    background-color: white;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 5px;
     padding: 8px 15px;
     cursor: pointer;
     font-weight: 100;
     
 }
 
-.submit-button:hover{
+.submit-button:hover {
     font-weight: 600;
 
 }
-/* Image Section*/
 
+
+/* IMAGE SECTION */
 .my-image{
-    width: 40%;
+    width: 50%;
     
 }
 
@@ -100,25 +108,28 @@ main{
     height: 90%;
 }
 
+
+/* BOX SECTION */
 .box-section{
     display: flex;
-    gap: 60px;
-    justify-content: space-between;
+    /*gap: 60px*/;
+    justify-content: center;
     
     margin-bottom: 20px;
     
 }
 
 .box{
-    background-color: teal;
+    background-color: teal; 
+    color: white;
     height: 150px;
-    width: 350px;
+    width: 250px;
     padding: 50px;
     font-size: 15px;
+    margin-right: 2rem;
 }
 
-/* Media Query*/
-
+/* MEDIA QUERY */
 @media (max-width: 900px){
     nav{
         display: flex;
@@ -130,6 +141,7 @@ main{
         display: block;
         cursor: pointer;
         font-size: 25px;
+        color: white;
 
     }
     
@@ -147,6 +159,8 @@ main{
     .nav-links{
         text-align: right;
     }
-
     
 }
+
+
+
